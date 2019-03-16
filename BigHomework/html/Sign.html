@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="../CSS/Sign.css">
+<script>
+	var apoint = document.getElementsByName("Account");
+	var ppoint = document.getElementsByName("Password");
+	apoint.onfocus(function(){
+		this.style.backgroundColor = "black";
+	});
+</script>
+</head>
+
+<body>
+	<div align="center">
+		<form>
+			<input type="text" value="" name="Account" placeholder="Account"><br>
+			<input type="password" value="" name="Password" placeholder="Password"><br>
+			<input type="submit" id="Submit"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="reset" id="Reset">
+		</form>
+	</div>
+</body>
+</html>

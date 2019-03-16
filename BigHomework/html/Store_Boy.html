@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../CSS/Store_Boy.css">
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$height = $(window).height();
+		$("div").css("height", $height / 2 + "px");
+		$("#B").click(function(){
+			$("#B").slideToggle();
+		});
+		$("#B").mouseout(function(){
+			$("#B").slideDown();
+		});
+	});
+</script>
+<title>Store/Boy</title>
+</head>
+
+<body>
+	<div id="First"></div>
+	<div id="B"></div>
+	<div id="O"></div>
+	<div id="Y"></div>
+</body>
+</html>

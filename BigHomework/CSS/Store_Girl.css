@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+@-webkit-keyframes revolve{
+  100%{
+	  transform: rotate(-360deg);
+  }
+}
+
+#G{
+	background-color:black;
+	float: left;
+	width: 50%;
+	background-image: url(../Photos/perfume.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+
+#subG{
+	z-index:3;
+	background-color:black;
+	opacity: 0.8;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+
+#subR{
+	z-index:3;
+	background-color:white;
+	opacity: 0.9;
+	color: black;
+	text-align: center;
+	font-size: 50px;
+}
+
+#subL{
+	z-index:3;
+	background-color:black;
+	opacity: 0.8;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+
+#I{
+	background-image: url(../Photos/CD3.png);
+	background-position: center;
+	background-size: 57% 100%;
+	background-repeat: no-repeat;
+	float: right;
+	width: 50%;
+	position: relative;
+	z-index: -1;
+	transform-origin: 50% 50%;
+	animation: 
+    	revolve 3.87s linear infinite;
+	animation-direction:normal;
+}
+
+#R{
+	background-color:black;
+	float: left;
+	width: 50%;
+	background-image: url(../Photos/jewelry.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+
+#L{
+	float: right;
+	width: 50%;
+	background-image: url(../Photos/bag.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+
+

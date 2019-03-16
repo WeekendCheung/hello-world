@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#First{
+	background-image: url(../Photos/shoes.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	cursor: pointer;
+	float: left;
+	width: 50%;
+}
+
+#B{
+	background-image: url(../Photos/sungla.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	cursor: pointer;
+	float: right;
+	width: 50%;
+}
+
+#O{
+	background-image: url(../Photos/belt.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	cursor: pointer;
+	float: left;
+	width: 50%;
+}
+
+#Y{
+	background-image: url(../Photos/moneyBag.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	cursor: pointer;
+	float: right;
+	width: 50%;
+}
+
+#subF{
+	background-color: black;
+	opacity: 0.9;
+	z-index: 3;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+
+#subB{
+	background-color: white;
+	opacity: 0.8;
+	z-index: 3;
+	color: black;
+	text-align: center;
+	font-size: 50px;
+}
+
+#subO{
+	background-color: white;
+	z-index: 3;
+	color: black;
+	text-align: center;
+	font-size: 50px;
+	opacity: 0.8;
+}
+
+#subY{
+	background-color: black;
+	z-index: 3;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	opacity: 0.6;
+}

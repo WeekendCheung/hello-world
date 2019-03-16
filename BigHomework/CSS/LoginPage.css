@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+
+#login{
+	background-color: black;
+	color: white;
+	width: 200px;
+	height: 80px;
+	border-radius: 50px;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+}
+
+#register{
+	background-color: black;
+	color: white;
+	width:200px;
+	height: 80px;
+	border-radius: 50px;
+	text-align: center;
+	float: right;
+	cursor: pointer;
+}
+
+#Screen{
+	background-color: white;
+	border: black 3px solid;
+	margin-top: 80px;
+}
+
+#Screen div{
+	margin-left:80px;
+	margin-top: 80px;
+}
+
+#Screen input{
+	height:25px;
+	font-size: 20px;
+	/*margin-left:50px;*/
+}
+
+#Screen p{
+	display:inline;
+	font-size: 30px;
+}
+
+#button{
+	margin-left: 60px;
+}
+
+#button input{
+	font-size:15px;
+	width: 70px;
+	height: 70px;
+	border-radius: 50px;
+	background-color: #EDEC56;
+	border-width: 0px;
+	margin-left: 60px;
+}
+
+#mainWindows{
+	position: absolute;
+	height:300px;
+	width: 400px;
+	top:35%;
+	left:35%;
+	margin-left: 0px;
+	margin-top: 0px;
+	border-radius: 10px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link{
+	color:white;
+}
+
+a:visited{
+	color:black;
+}
+
+a:hover{
+	color: black;
+}
+
+body{
+	background-image:url(../Photos/login_back.jpg);
+	background-repeat:repeat;
+	background-size: 50%;
+}
+
+@media screen and (min-width:600px) and (max-width: 1500px)
+{
+	#mainWindows{
+	position: absolute;
+	height:300px;
+	width: 400px;
+	top:35%;
+	left:20%;
+	margin-left: 0px;
+	margin-top: 0px;
+	border-radius: 10px;
+	}
+}
+
+@media screen and (max-width:600px) 
+{
+	#mainWindows{
+	position: absolute;
+	height:200px;
+	width: 300px;
+	top:25%;
+	left:10%;
+	margin-left: 0px;
+	margin-top: 0px;
+	border-radius: 10px;
+	}
+	
+	#login{
+	background-color: black;
+	color: white;
+	width: 150px;
+	height: 50px;
+	border-radius: 40px;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+}
+
+#register{
+	background-color: black;
+	color: white;
+	width:150px;
+	height: 50px;
+	border-radius: 40px;
+	text-align: center;
+	float: right;
+	cursor: pointer;
+}
+
+#Screen{
+	background-color: white;
+	border: black 3px solid;
+	margin-top: 50px;
+}
+}
